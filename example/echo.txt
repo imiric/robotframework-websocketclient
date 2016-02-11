@@ -1,18 +1,10 @@
 *** Settings ***
-Library  WebSocketLibrary
-
+Library  WebSocketClient
 
 *** Test Cases ***
 Echo
-	connect	ws://echo.websocket.org
-	send	Hello
-	${result}=	recv
-	Should be Equal	Hello	${result}
-	close
-
-Echo2
-	connect	ws://echo.websocket.org
-	send	Hey
-	${result}=	recv
-	Should be Equal	Hey	${result}
-	close
+	WebSocketClient.Connect  ws://echo.websocket.org
+	WebSocketClient.Send  Hello
+	${result}=  WebSocketClient.Recv
+	Should Be Equal  Hello  ${result}
+	WebSocketClient.Close

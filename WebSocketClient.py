@@ -1,7 +1,7 @@
 
 from websocket import create_connection
 
-class WebSocketLibrary:
+class WebSocketClient:
 
 #	def __init__(self,URL=""):
 #		if URL != "":

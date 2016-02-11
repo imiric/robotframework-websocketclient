@@ -1,4 +1,4 @@
-# robotframework-websocketlibrary
+# robotframework-websocketclient
 
 A simple wrap up for Websocket-client Python library
 
@@ -6,4 +6,3 @@ A simple wrap up for Websocket-client Python library
 
 1. pip install websocket-client
 2. sudo python setup.py install
-

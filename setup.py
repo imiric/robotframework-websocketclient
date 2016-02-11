@@ -5,13 +5,14 @@ from setuptools import setup
 
 setup(
     name = 'robotframework-websocketclient',
-    packages = ['robotframework-websocketclient'],
-    version = '0.3',
+    package_dir  = {'' : 'src'},
+    packages = ['WebSocketClient'],
+    version = '1.0.0',
     description = '	Robot Framework keywords for websocket-client',
     author = 'Damien Le Bourdonnec',
     author_email = 'damien.lebourdonnec@gmail.com',
     url = 'https://github.com/greums/robotframework-websocketclient',
-    download_url = 'https://github.com/greums/robotframework-websocketclient/tarball/0.3',
+    download_url = 'https://github.com/greums/robotframework-websocketclient/tarball/1.0.0',
     keywords = ['robotframework', 'websocket'],
     install_requires=[
         'websocket-client'

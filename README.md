@@ -1,8 +1,11 @@
 # robotframework-websocketclient
 
-A simple wrap up for Websocket-client Python library
+Robot Framework keywords for websocket-client
 
-# Requirement
+# Installation
 
-1. pip install websocket-client
-2. sudo python setup.py install
+The recommended installation method is using pip:
+
+```
+pip install robotframework-websocketclient
+```

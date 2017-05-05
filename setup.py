@@ -7,7 +7,7 @@ setup(
     name = 'robotframework-websocketclient',
     package_dir  = {'' : 'src'},
     packages = ['WebSocketClient'],
-    version = '1.1.0',
+    version = '1.1.1',
     description = '	Robot Framework keywords for websocket-client',
     author = 'Damien Le Bourdonnec',
     author_email = 'damien.lebourdonnec@gmail.com',

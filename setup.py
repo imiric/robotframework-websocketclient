@@ -15,7 +15,7 @@ setup(
     download_url = 'https://github.com/greums/robotframework-websocketclient/tarball/1.1.0',
     keywords = ['robotframework', 'websocket'],
     install_requires=[
-        'websocket-client'
+        'websocket-client==0.40.0'
     ],
     classifiers = []
 )
